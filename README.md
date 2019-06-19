@@ -1,8 +1,20 @@
 # CRUD da clientes da empresa Vitor
 
-Running React 16.7.0-alpha
+- View all client
+- Add a new client
+- Delete a client
+- Edit an existing client
 
-- View all users
-- Add a new user
-- Delete a user
-- Edit an existing user
+
+### Installing
+
+You will only need npm or yarn to execute 
+
+```
+npm install
+```
+
+```
+npm start
+```
+
