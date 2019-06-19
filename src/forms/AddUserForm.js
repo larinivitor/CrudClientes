@@ -14,7 +14,7 @@ const AddUserForm = props => {
 		<form
 			onSubmit={event => {
 				event.preventDefault()
-				if (!user.name || !user.age) return
+				if (!user.name || !user.age || !user.position) return
 
 				props.addUser(user)
 				setUser(initialFormState)
@@ -25,7 +25,7 @@ const AddUserForm = props => {
 			<label>Idade</label>
 			<input type="text" name="age" value={user.age} onChange={handleInputChange} />
 			<label>Cargo</label>
-			<input type="text" name="age" value={user.position} onChange={handleInputChange} />
+			<input type="text" name="position" value={user.position} onChange={handleInputChange} />
 			<button>Add novo cliente</button>
 		</form>
 	)
